@@ -188,7 +188,7 @@ var deform  = {
         var input = $(el).find(':input')
           .filter('[id ^= deformField]')
           .filter('[type != hidden]')
-          .filter('[disabled != disabled'])
+          .filter('[disabled != disabled]')
           .first();
         if (input) {
             var raw = input.get(0);
